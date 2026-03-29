@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api/products";
+const BASE_URL = "https://dbms-backend-beta.vercel.app/api/products";
 
 // GET
 export const getProducts = async () => {
