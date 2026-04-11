@@ -1,4 +1,4 @@
-const BASE_URL = "https://dbms-backend-beta.vercel.app/api/products";
+const BASE_URL = "https://dbms-backend-git-main-ankit128912s-projects.vercel.app/api/products";
 
 // GET
 export const getProducts = async () => {
