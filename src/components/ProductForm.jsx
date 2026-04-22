@@ -6,7 +6,8 @@ function ProductForm({ refresh }) {
     name: "",
     category: "",
     price: "",
-    stock: ""
+    stock: "",
+    supplier_id: ""
   });
 
   const handleChange = (e) => {
@@ -23,7 +24,8 @@ function ProductForm({ refresh }) {
       name: "",
       category: "",
       price: "",
-      stock: ""
+      stock: "",
+      supplier_id: ""
     });
   };
 
@@ -33,6 +35,7 @@ function ProductForm({ refresh }) {
       <input name="category" placeholder="Category" value={form.category} onChange={handleChange} />
       <input name="price" placeholder="Price" value={form.price} onChange={handleChange} />
       <input name="stock" placeholder="Stock" value={form.stock} onChange={handleChange} />
+      <input name="supplier_id" placeholder="Supplier ID" value={form.supplier_id} onChange={handleChange} />
 
       <button type="submit">Add Product</button>
     </form>
